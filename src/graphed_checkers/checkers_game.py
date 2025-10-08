@@ -1,5 +1,5 @@
-from graphed_checkers import Tile, GraphicCheckerBoard
-
+from .tile import Tile
+from .graphics import GraphicCheckerBoard
 
 def find_player_pieces(tile, player, piece_list):
     if tile.value == player:
